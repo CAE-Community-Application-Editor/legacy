@@ -1,0 +1,21 @@
+  /**
+   * 
+   * -{$HTTPMethod_Name_Comment$}-
+   * 
+$HTTPMethod_Params$
+   * 
+   * @return Response -{ }-
+   * 
+   */
+  $HTTP_Method_Type$
+  @Path("$HTTPMethod_Path$")
+  $HTTPMethod_Produces$
+  $HTTPMethod_Consumes$
+  @ApiResponses(value = {
+$HTTPMethod_Api_Responses$
+  })
+  @ApiOperation(value = "$HTTPMethod_Name$", notes = "-{ }-")
+  public Response $HTTPMethod_Name$($HTTPMethod_Parameters$) {
+$HTTPMethod_Casts$-{$HTTPMethod_Body$}-
+  }
+

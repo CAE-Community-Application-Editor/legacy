@@ -1,0 +1,18 @@
+Y({-{
+  db: {
+    name: 'memory'
+  },
+  connector: {
+    name: 'websockets-client',
+    room: 'cae-room'
+  },
+  sourceDir: "http://y-js.org/bower_components",
+  }-share: {
+$Variable_Init$-{ }-
+  }
+}).then(function (y) {
+  window.yTextarea = y
+$Share_Element$
+-{ 
+}-})
+
